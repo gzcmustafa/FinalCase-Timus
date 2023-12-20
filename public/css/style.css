@@ -319,7 +319,7 @@ button {
 
 .header-area {
     width: 100%;
-    border-top: #f6388e solid 16px;
+    border-top: #625CC6 solid 16px;
     background: #fff;
     height: 100px;
     padding: 23px 20px;
@@ -335,7 +335,7 @@ button {
 
 }
 .logo a span {
-    color: #f6388e;
+    color: #5737D5;
 }
 .navbar-area {
     float: left;
@@ -459,7 +459,7 @@ ul.email li i {
 
 /** banner section **/
 .slider_main {
-    background: url(../images/banner.jpg) ;
+    background: #D7F0F9;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -493,7 +493,7 @@ ul.email li i {
     left: 0;
     top: 0;
     height: 100%;
-    background: #f6388e;
+    background: #7D7AEC;
     width: 40%;
 }
 .creative h1 {
@@ -556,7 +556,7 @@ ul.email li i {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-prev:hover {
     color: #fff;
-    background: #fa136f;
+    background: #fff;
 }
 
 
@@ -581,7 +581,7 @@ ul.email li i {
 }
 
 .lightbox {
-    background: #f6388e;
+    background: #dbdbdb;
 }
 
 .view_main {
@@ -596,7 +596,7 @@ ul.email li i {
      align-items: center;
      opacity: 0;
      transition: ease-in all 0.5s;
-     background: #f6388ed9;
+     background: #fff;
      cursor: pointer;
 }
 
@@ -685,7 +685,7 @@ ul.email li i {
 /** about section **/
 
 .about {
-    background: #e5b9d0;
+    background: #615BC5;
     padding-top: 90px;
     padding-bottom: 90px;
     margin-top: 90px;

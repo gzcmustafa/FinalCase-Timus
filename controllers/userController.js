@@ -8,9 +8,7 @@ const createUser = async (req, res) => {
     const user = await User.create(req.body);
     res.status(201).json({user: user._id})
   } catch (error) {
-
-
-
+    
     let errors2 = {}
 
     if (error.code === 11000) {

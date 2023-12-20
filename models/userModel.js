@@ -8,7 +8,7 @@ const userSchema = new Schema({
     username:{
         type: String,
         required: [true,"Username is required"],
-        minLength: [8,"At least 8 chracters"], //
+        minLength: [8," Username must be at least 8 chracters"], //
         lowercase: true
     },
     email:{
@@ -22,6 +22,7 @@ const userSchema = new Schema({
         required:[true,"Password is required"],
         
     }
+    
 },
 {
     timestamps:true,

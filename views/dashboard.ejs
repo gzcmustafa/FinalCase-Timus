@@ -1,0 +1,90 @@
+<%- include("partials/_header") %>
+
+
+   <!-- body -->
+   <body class="main-layout inner_page">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+     
+      <%- include("partials/_menu") %>
+      <div class="customers">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="titlepage text_align_center">
+                <h2>Welcome <%=user.username%> </h2>
+              </div>
+            </div>
+          </div>
+          <!DOCTYPE html>
+          <html lang="tr">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Firma Bilgi Formu</title>
+              <style>
+                  body {
+                      font-family: Arial, sans-serif;
+                      padding: 20px;
+                  }
+                  table {
+                      width: 100%;
+                      border-collapse: collapse;
+                      margin-bottom: 20px;
+                  }
+                  th, td {
+                      border: 1px solid #ccc;
+                      padding: 8px 12px;
+                      text-align: left;
+                  }
+                  th:last-child, td:last-child {
+                      text-align: center;
+                  }
+                  button {
+                      padding: 8px 12px;
+                      background-color: #007bff;
+                      color: white;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                  }
+                  button:hover {
+                      background-color: #0056b3;
+                  }
+              </style>
+          </head>
+          <body>
+          
+          <table>
+              <thead>
+                  <tr>
+                      <th>Firma Adı</th>
+                      <th>Üyelik Tarihi</th>
+                      <th>Üyelik Bitiş Tarihi</th>
+                      <th>Çalışan Sayısı</th>
+                      <th>Free Üye</th>
+                      <th>Detay</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><input type="text" placeholder="Firma Adı" required></td>
+                      <td><input type="date" required></td>
+                      <td><input type="date" required></td>
+                      <td><input type="number" required></td>
+                      <td><input type="checkbox"></td>
+                      <td><button type="button">Detay</button></td>
+                  </tr>
+              </tbody>
+          </table>
+          
+          </body>
+          </html>
+          
+          
+        </div>
+      </div>
+      <%- include("partials/_footer") %>
