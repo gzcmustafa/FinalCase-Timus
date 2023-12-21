@@ -101,7 +101,7 @@ cd FinalCase-Timus
 npm install
 
 ```
-## Step 2: Clone and Install Dependencies
+## Step 2: Env Files
 
 This application uses environment variables for configuration. To set up your environment variables:
 
