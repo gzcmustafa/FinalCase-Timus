@@ -45,7 +45,7 @@ If the user has registered for the system, this is the page where they can log i
 ### Dashboard
 
 #### Please pay attention
-This page is for adding and removing factories. However, I haven't coded the database and backend parts for this page.
+This page is for adding and removing factories. However, due to time constraints, I haven't been able to code the database and backend parts for this page.
 
 <p align="center">
 <img width="700" src="/public/images/dashboard.png" />
